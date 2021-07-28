@@ -3,7 +3,7 @@
     "publisher": "Kizza7984",
     "displayName": "HTMLisp Syntax Highlighting",
     "description": "Syntax highlighting for HTMLisp.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "icon": "icon.png",
     "license": "AGPL-3.0",
     "engines": {
