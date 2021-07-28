@@ -23,14 +23,14 @@
 		},
 		"attribute-name": {
 			"name": "entity.other.attribute-name.htmlisp",
-			"match": ":\\w+"
+			"match": "[\\s\\t\\r\\n]:\\w+\\s"
 		},
 		"tag-name": {
 			"name": "entity.name.tag.htmlisp",
-			"match": "^\\w+"
+			"match": "(?<=\\()\\w+"
 		},
 		"tags": {
-			"name": "meta.tag.htmlisp",
+			"contentName": "meta.tag.htmlisp",
 			"begin": "\\(",
 			"end": "\\)",
 			"beginCaptures": {
