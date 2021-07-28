@@ -1,5 +1,6 @@
 {
     "name": "vscode-htmlisp-syntax",
+    "publisher": "Kizza7984",
     "displayName": "HTMLisp Syntax Highlighting",
     "description": "Syntax highlighting for HTMLisp.",
     "version": "0.0.1",
