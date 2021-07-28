@@ -4,9 +4,6 @@
 	"patterns": [
 		{
 			"include": "#tags"
-		},
-		{
-			"include": "#strings"
 		}
 	],
 	"repository": {
