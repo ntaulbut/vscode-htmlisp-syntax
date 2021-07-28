@@ -1,3 +1,5 @@
-# HTMLisp Syntax Highlighting ![Icon](icon.png)
-
+# HTMLisp Syntax Highlighting
 This VS Code extension provides syntax highlighting for HTMLisp.
+
+
+![Icon](icon.png)
