@@ -1,5 +1,8 @@
 {
     "name": "vscode-htmlisp-syntax",
+    "repository": {
+        "url": "https://github.com/kizza7984/vscode-htmlisp-syntax"
+    },
     "publisher": "Kizza7984",
     "displayName": "HTMLisp Syntax Highlighting",
     "description": "Syntax highlighting for HTMLisp.",
