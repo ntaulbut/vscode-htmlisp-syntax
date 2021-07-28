@@ -1,6 +1,6 @@
 {
-    "name": "vscode-htmlisp-language-support",
-    "displayName": "HTMLisp Language Support",
+    "name": "vscode-htmlisp-syntax",
+    "displayName": "HTMLisp Syntax Highlighting",
     "description": "Syntax highlighting for HTMLisp.",
     "version": "0.0.1",
     "icon": "icon.png",
