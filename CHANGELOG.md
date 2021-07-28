@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "htmlisp-language-support" extension will be documented in this file.
+All notable changes to the extension will be documented here.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Following [Keep a Changelog](http://keepachangelog.com/) format.
 
-## [Unreleased]
+## [1.0.0]
 
 - Initial release
