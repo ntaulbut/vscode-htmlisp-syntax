@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "HTMLisp",
+	"patterns": [
+		{
+			"include": "#tags"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"strings": {
+			"name": "string.quoted.double.htmlisp",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.htmlisp",
+					"match": "\\\\."
+				}
+			]
+		},
+		"attribute-name": {
+			"name": "entity.other.attribute-name.htmlisp",
+			"match": ":\\w+"
+		},
+		"tag-name": {
+			"name": "entity.name.tag.htmlisp",
+			"match": "^\\w+"
+		},
+		"tags": {
+			"name": "meta.tag.htmlisp",
+			"begin": "\\(",
+			"end": "\\)",
+			"beginCaptures": {
+				"0": { "name": "meta.open.tag.htmlisp" }
+			},
+			"endCaptures": {
+				"0": { "name": "meta.close.tag.htmlisp" }
+			},
+			"patterns": [
+				{
+					"include": "#attribute-name"
+				},
+				{
+					"include": "#tag-name"
+				},
+				{
+					"include": "#strings"
+				},
+				{
+					"include": "#tags"
+				}
+			]
+		}
+	},
+	"scopeName": "source.htmlisp"
+}

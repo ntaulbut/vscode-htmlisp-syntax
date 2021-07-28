@@ -1,0 +1,27 @@
+{
+    "name": "htmlisp-language-support",
+    "displayName": "HTMLisp Language Support",
+    "description": "Syntax highlighting for HTMLisp.",
+    "version": "0.0.1",
+    "icon": "./images/logo.png",
+    "license": "AGPL-3.0",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "htmlisp",
+            "aliases": ["HTMLisp", "htmlisp"],
+            "extensions": [".htmlisp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "htmlisp",
+            "scopeName": "source.htmlisp",
+            "path": "./syntaxes/htmlisp.tmLanguage.json"
+        }]
+    }
+}

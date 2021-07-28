@@ -1,0 +1,5 @@
+node_modules
+*.vsix
+test.htmlisp
+test.html
+vsc-extension-quickstart.md
